@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header {
+    height: 100vh;
+    background-image:url("MikeEhr.webp"), url("mountain.webp");
+    background-size: 30vw 60vh, cover;
+    background-position: center center, left top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bg-image {
+    background-image: url("mike.png");
+    height: 60vh;
+    width: 30vw;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    
+
+    
+
+}
+.bg-image2 {
+    background-image: url("male.jpeg");
+    background-size: cover;
+    width: 30vw;
+    height: 60vh;
+    color: white;
+    
+    background-repeat: no-repeat;
+    border: 10px solid transparent;
+    border-image-source: url("backw.jpg");
+    border-image-slice: 24 24 16;
+     
+
+}
+.bg-image, .bg-image2 {
+    display: flex;
+    align-items: flex-end;
+    
+}
+.Writing { 
+    position: absolute;
+    color: purple;
+    top: 10vh;
+    left: 60vh;
+}
